@@ -1,0 +1,15 @@
+skd/tools/android update project --path .
+sdk/tools/android update project --subprojects --path . --target 1
+
+ant.properties
+key.store=keystoreのファイルパス
+key.store.password=
+key.alias=
+key.alias.password=
+
+build.xml name=kamonegi
+ant clean release
+
+d.php
+sid=BOX用ID
+uid=フォルダID
